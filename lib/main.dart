@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Animated Bottom Navigation Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(),
+
+      theme: ThemeData(fontFamily: 'Roboto'),
       //darkTheme: ThemeData.dark(),
       //themeMode: ThemeMode.system,
       supportedLocales: [Locale('en', 'US'), Locale('es', 'ES')],
